@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <title>transformador de caras30000000</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <center>
+          <h3 class="btn btn-warning heading" >aplicasion emocion con emollin
+              <br>
+              <span>&#129312;</span>
+              <span>&#129313;</span>
+              <span>&#129327;</span>
+              <span>&#129301;</span>
+          </h3>
+          <br><h1>toma tu foto con la camara</h1>
+          <br>
+          <h2>mano de victoroa✌️✌️</h2>
+          <br>
+          <h2>hola✋✋</h2>
+          <br>
+          <h2>ok👌👌</h2>
+          <br>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+      <label>bista de la camara wev</label> 
+      <div id="camara"></div>   
+      <br>
+      <button id="tomarfoto" onclick="tomarfoto()">tomar foto</button>    
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12">
+              <label>predicsion1</label>
+              <p id="emosion1"></p>
+              <p class="emoji" id="salidaemoji1"></p>
+
+              <label>predicsion2</label>
+              <p id="emosion2"></p>
+              <p class="emoji" id="salidaemoji2"></p>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>salida final</label> 
+            <div id="resultado"></div>   
+            <br>
+            <button id="identificar" onclick="identificar()">identificar</button>    
+                </div>
+      </center>
+  </div>
+  <script src="main.js"></script>  
+</body>
+</html>

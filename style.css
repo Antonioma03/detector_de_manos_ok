@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(164, 235, 21);
+    font-size: 25px;
+}
+#tomarfoto, #identificar{
+    background-color: rgb(53, 56, 112);
+    color:rgb(255, 255, 255)
+}
+#resultado{
+width: 360px;
+height: 310px;
+background-color: rgb(255, 248, 239);
+border-color: hsl(180, 100%, 54%);
+border-width: 5px;
+border-style: dotted;
+}
